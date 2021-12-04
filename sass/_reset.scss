@@ -1,0 +1,20 @@
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: 'Spartan', sans-serif; 
+    font-size: 15px;
+    --f-size-title: 2.3rem;
+    --f-size-p: 1rem;
+    --f-size-subtitle: .9rem;
+    --f-size-post: .85rem;
+    --f-size-profile: .8rem;
+    --f-size-stars: 1.6rem;
+    --b-url-top: url('../images/bg-pattern-top-mobile.svg');
+    --b-url-bottom: url('../images/bg-pattern-bottom-mobile.svg');
+
+}
