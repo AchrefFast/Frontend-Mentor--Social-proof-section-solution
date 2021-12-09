@@ -81,15 +81,16 @@ body{
         --percent: calc(var(--rating) / 5 * 100%);
         margin-bottom: 10px;
         line-height: 1;
+        display: inline;
 
         &::before{
             content: '★★★★★';
             font-size: var(--f-size-stars);
             letter-spacing: .3ch;
-            background: linear-gradient(90deg, color(stars) var(--percent), white var(--percent));
-            background-clip: text;
+           // background: linear-gradient(90deg, color(stars) var(--percent), white var(--percent));
+            //background-clip: text;
             font-weight: 700;
-            -webkit-text-fill-color:  transparent;
+           color:  color(stars);
 
         }
     }

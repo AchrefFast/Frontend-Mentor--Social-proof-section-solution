@@ -96,17 +96,15 @@ body::after {
   --percent: calc(var(--rating) / 5 * 100%);
   margin-bottom: 10px;
   line-height: 1;
+  display: inline;
 }
 
 .tes__rev-sites__block .stars::before {
   content: '★★★★★';
   font-size: var(--f-size-stars);
   letter-spacing: .3ch;
-  background: -webkit-gradient(linear, left top, right top, from(#e2803f), to(white));
-  background: linear-gradient(90deg, #e2803f var(--percent), white var(--percent));
-  background-clip: text;
   font-weight: 700;
-  -webkit-text-fill-color: transparent;
+  color: #e2803f;
 }
 
 .tes__rev-sites__block .tes__rev-sites__text {
